@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Page Title_files/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./Page Title_files/main.css">
+    
+</head>
+<body class="container">
+    <section class="title-header text-center">
+        <p>Welcome to GameHub!</p>
+    </section>
+    <div class="select-player text-center">
+        <p> How Many Players Are Playing</p>
+        <button type="button" onclick="onePlayer()" class="btn btn-primary">One Player</button>
+        <button type="button" onclick="twoPlayers()" class="btn btn-primary">Two Player</button>
+    </div>
+    <div class="player-name-input row">
+        <div class="player-1 col" id="player-one" style="display: block;">
+            <p>Please enter player one name</p>
+            <input type="email" class="player-username" placeholder="Player 1">
+            <div>Select Avatar</div>
+        </div>
+        <div class="player-2 col" id="player-two" style="display: block;">
+            <p>Please enter player two name</p>
+             <input type="email" class="player-username" placeholder="Player 2"> 
+             <div>Select Avatar</div>
+        </div>
+        <div id="pselect-finish" style="display: block;">
+            <button type="button" onclick="Done()" class="btn btn-primary">done</button>
+        </div>
+    
+    </div>
+    
+    <div class="pick-game text-center mt-5">
+        <p>Pick a Game</p>
+            <div class="games d-flex flex-row flex-wrap justify-content-around ">
+                
+                        <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./Page Title_files/saved_resource" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                
+                
+                        <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./Page Title_files/saved_resource" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                
+                
+                        <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./Page Title_files/saved_resource" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                
+                        <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./Page Title_files/saved_resource" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                
+            </div>
+    </div>
+
+<script src="./Page Title_files/main.js"></script>
+</body></html>

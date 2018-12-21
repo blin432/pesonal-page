@@ -1,0 +1,24 @@
+body{
+    margin:0;
+}
+
+.player-username{
+    width: 100px;
+}
+
+.title-header{
+    font-size: 55px;
+    margin-top: 50px;
+}
+.select-player{
+    margin-top:50px;
+}
+
+.select-player p{
+    font-size: 38px;
+}
+.select-player button{
+    margin:20px;
+}
+
+
